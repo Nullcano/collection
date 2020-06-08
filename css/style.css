@@ -1,0 +1,62 @@
+:root {
+  --color-primary: rgb(200, 200, 200);
+  --color-link: rgb(250, 250, 250);
+  --color-hover: rgb(225, 225, 225);
+  --bg-primary: rgb(20, 20, 20);
+  --bg-secondary: rgb(25, 25, 25);
+  --font-size: 1.6rem;
+  --font-family: -apple-system, BlinkMacSystemFont, Avenir, "Avenir Next", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 62.5%;
+  line-height: 1.15;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%
+}
+
+*, :after, :before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit
+}
+
+body {
+  background-color: var(--bg-primary);
+  line-height: 1.6;
+  font-size: var(--font-size);
+  color: var(--color-primary);
+  font-family: var(--font-family);
+}
+
+h1, h2, h3, h4, h5, h6 { 
+  font-weight: normal; 
+}
+
+h1 { font-size: 2em }
+h2 { font-size: 1.75em }
+h3 { font-size: 1.5em }
+h4 { font-size: 1.25em }
+h5 { font-size: 1em }
+h6 { font-size: .85em }
+
+a { 
+  color: var(--color-link);
+  text-decoration: none
+}
+
+a:hover:not(.button) {
+  color: var(--color-hover);
+  opacity: .75
+}
+
+button {
+  font-family: inherit
+}
+
+p {
+  margin-top: 0
+}
