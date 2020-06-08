@@ -1,6 +1,8 @@
 # collection
 create a collection and share it with a dynamic url
 
-## todo
+todo
+
 [] generate a url based on collection state
+
 [] return collection when entering the generated url
